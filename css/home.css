@@ -1,0 +1,43 @@
+header{
+
+}
+
+header nav{
+ display: flex;
+ justify-content: space-between;
+ padding: 10px 15px;
+ font-size: 1em;
+}
+
+header nav .nav-right{
+ display: flex;
+ align-items: center;
+}
+
+header nav .nav-right a{
+    color: #444;
+    font-size: 1.1em;
+    padding: 5px 10px;
+    margin: 0px 5px;
+
+}
+
+header nav .nav-left .register-login-btn{
+    padding: 5px 8px;
+    border: 1px solid #666;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+header nav .nav-left .register-login-btn i{
+   
+
+}
+
+header nav .nav-left .register-login-btn a{
+    color : #444;
+    margin: 0px 10px;
+    padding-top: 5px;
+   font-size: 0.9em;
+}
